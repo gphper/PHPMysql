@@ -1,0 +1,11 @@
+{
+  "name": "mysql/phpMysql",
+  "require": {
+    "ext-sockets": "*"
+  },
+  "autoload": {
+    "psr-4": {
+        "PHPMysql\\": "src"
+    }
+  }
+}
